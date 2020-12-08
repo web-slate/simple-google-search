@@ -1,2 +1,2 @@
 # Simple Google Search
-Simple Google Search using React and Spring Framework
+Simple Google Search using Angular and Spring Framework
