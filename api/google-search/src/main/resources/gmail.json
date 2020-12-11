@@ -1,0 +1,37 @@
+{
+  "total_results": 6,
+  "execution_time": 42000,
+  "query_string": "gmail",
+  "results": [
+    {
+      "title": "Gmail - Google",
+      "url": "https://www.google.com/gmail/",
+      "short_description": "Gmail is email that's intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access."
+    },
+    {
+      "title": "Google Login - Sign in - Google Accounts",
+      "url": "https://accounts.google.com/login",
+      "short_description": "Sign in. Use your Google Account. Email or phone. Forgot email? Type the text you hear or see. Not your computer? Use Guest mode to sign in privately."
+    },
+    {
+      "title": "Create your Google Account - Google Accounts",
+      "url": "https://accounts.google.com/signup?hl=en",
+      "short_description": "A single username and password gets you into everything Google (Gmail, Chrome, YouTube, Google Maps). Set up your profile and preferences just the way ..."
+    },
+    {
+      "title": "Gmail (@gmail) · Twitter",
+      "url": "https://twitter.com/gmail?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "short_description": "Add links 🔗 faster in #gmail with this shortcut → goo.gle/3gkvsWF pic.twitter.com/T8RkU2e…"
+    },
+    {
+      "title": "Create a Gmail account - Gmail Help - Google Support",
+      "url": "https://support.google.com/mail/answer/56256?hl=en",
+      "short_description": "To sign up for Gmail, create a Google Account. You can use the username and password to sign in to Gmail and other Google products like YouTube, Google ..."
+    },
+    {
+      "title": "Gmail – Apps on Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.gm&hl=en_IN&gl=US",
+      "short_description": "Gmail is an easy-to-use email app that saves you time and keeps your messages safe. Instantly receive your messages via push notifications, read and respond ..."
+    }
+  ]
+}

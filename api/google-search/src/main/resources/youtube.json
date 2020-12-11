@@ -1,0 +1,37 @@
+{
+  "total_results": 6,
+  "execution_time": 49000,
+  "query_string": "youtube",
+  "results": [
+    {
+      "title": "YouTube",
+      "url": "https://www.youtube.com/",
+      "short_description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+    },
+    {
+      "title": "YouTube (@YouTube) · Twitter",
+      "url": "https://twitter.com/YouTube",
+      "short_description": ""
+    },
+    {
+      "title": "YouTube – Apps on Google Playplay",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en_IN&gl=US",
+      "short_description": "Get the official YouTube app for Android phones and tablets. See what the world is watching -- from the hottest music videos to what's trending in gaming, ..."
+    },
+    {
+      "title": "YouTube - Home | Facebook",
+      "url": "https://www.facebook.com/youtube/",
+      "short_description": "YouTube. 85M likes. The latest and greatest music videos, trends and channels from YouTube."
+    },
+    {
+      "title": "YouTube - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/YouTube",
+      "short_description": "YouTube is an American online video-sharing platform headquartered in San Bruno, California. Three former PayPal employees—Chad Hurley, Steve Chen, ..."
+    },
+    {
+      "title": "YouTube Help - Google Support",
+      "url": "https://support.google.com/youtube/?hl=en",
+      "short_description": "How can we help you? Fix a problem. Troubleshoot problems playing videos · Troubleshoot account issues · Fix upload problems · Fix YouTube Premium ..."
+    }
+  ]
+}

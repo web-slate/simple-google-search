@@ -1,0 +1,37 @@
+{
+  "total_results": 6,
+  "execution_time": 59000,
+  "query_string": "amazon",
+  "results": [
+    {
+      "title": "Amazon.in",
+      "url": "https://www.amazon.in/",
+      "short_description": "Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards. Free Shipping & Cash on Delivery ..."
+    },
+    {
+      "title": "Amazon Prime - Amazon.com",
+      "url": "https://www.amazon.com/gp/prime",
+      "short_description": "See what being an Amazon Prime member is all about. Free delivery, exclusive deals, tons of movies and music. Explore Prime."
+    },
+    {
+      "title": "Welcome to Prime Video",
+      "url": "https://www.primevideo.com/",
+      "short_description": "Enjoy exclusive Amazon Originals as well as popular movies and TV shows. Watch anytime, anywhere. Start your free trial."
+    },
+    {
+      "title": "Amazon (@amazon) · Twitter",
+      "url": "https://twitter.com/amazon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "short_description": ""
+    },
+    {
+      "title": "Amazon (company) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/YouTube",
+      "short_description": "Amazon.com, Inc. is an American multinational technology company based in Seattle, Washington, which focuses on e-commerce, cloud computing, digital ..."
+    },
+    {
+      "title": "Amazon (company) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+      "short_description": "How can we help you? Fix a problem. Troubleshoot problems playing videos · Troubleshoot account issues · Fix upload problems · Fix YouTube Premium ..."
+    }
+  ]
+}

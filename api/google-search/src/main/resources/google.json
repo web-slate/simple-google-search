@@ -1,0 +1,32 @@
+{
+  "total_results": 5,
+  "execution_time": 51000,
+  "query_string": "google",
+  "results": [
+    {
+      "title": "Google",
+      "url": "https://www.google.com/",
+      "short_description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ..."
+    },
+    {
+      "title": "Google (@Google) · Twitter",
+      "url": "https://twitter.com/Google?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "short_description": ""
+    },
+    {
+      "title": "Browse All of Google's Products & Services - Google",
+      "url": "https://about.google/products/",
+      "short_description": "Browse a list of Google products designed to help you work and play, stay organized, get answers, keep in touch, grow your business, and more."
+    },
+    {
+      "title": "Google - Workplace & Office | Facebook - 2,175 Photos",
+      "url": "https://www.facebook.com/Google/",
+      "short_description": "Google, Mountain View, CA. 27M likes. Organizing the world's information and making it universally accessible and useful."
+    },
+    {
+      "title": "Google - YouTube",
+      "url": "https://www.youtube.com/Google",
+      "short_description": "Experience the world of Google on our official YouTube channel. Watch videos about our products, technology, company happenings and more. Subscribe to ..."
+    }
+  ]
+}
