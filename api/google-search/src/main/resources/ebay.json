@@ -1,0 +1,32 @@
+{
+  "total_results": 5,
+  "execution_time": 53000,
+  "query_string": "ebay",
+  "results": [
+    {
+      "title": "eBay: Electronics, Cars, Fashion, Collectibles & More",
+      "url": "https://www.ebay.com/",
+      "short_description": "Buy & sell electronics, cars, clothes, collectibles & more on eBay, the world's online marketplace. Top brands, low prices & free shipping on many items."
+    },
+    {
+      "title": "Benefits of selling globally with eBay| Export from India",
+      "url": "https://sellglobal.ebay.in/seller-central/seller-benefits/",
+      "short_description": "eBay's focus in India is on the B2C Ecommerce retail export. Indian sellers get huge benefits by selling their products to other countries on eBay."
+    },
+    {
+      "title": "Sell on eBay. The best place to sell online and make money",
+      "url": "http://sell.ebay.in/sell",
+      "short_description": "Tell us what you're selling. Sign in to see your saved information. Give us a title for your listing. Start selling. For example: Levis 501 women's jeans."
+    },
+    {
+      "title": "eBay (@eBay) · Twitter",
+      "url": "https://twitter.com/eBay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "short_description": ""
+    },
+    {
+      "title": "eBay: Shopping Deals - Buy, Sell & Save Today! – Apps on ...",
+      "url": "https://play.google.com/store/apps/details?id=com.ebay.mobile&hl=en_IN&gl=US",
+      "short_description": "Buy, sell & save today! Browse shopping deals on electronics, fashion & home and save with discount prices - straight from your phone!. Shopping on eBay is ..."
+    }
+  ]
+}
