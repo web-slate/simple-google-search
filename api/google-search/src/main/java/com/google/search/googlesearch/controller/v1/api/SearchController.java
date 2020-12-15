@@ -11,11 +11,11 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 @RestController
 public class SearchController {
-    @GetMapping(value = "/api/v1/search")
-    @ApiResponses(value = {
-        @ApiResponse(responseCode = "200", description = "Get search results", content = @Content(schema = @Schema(nullable = true)))
-    })
-    public String getSearch(@RequestParam(defaultValue = "param") String query) {
-        return "Query: " + query;
-    }
+	@GetMapping(value = "/api/v1/search")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200", description = "Get search results", content = @Content(schema = @Schema(nullable = true))) })
+	public String getSearch(@RequestParam(defaultValue = "param") String query) {
+		return "Query: " + query;
+	}
+
 }
