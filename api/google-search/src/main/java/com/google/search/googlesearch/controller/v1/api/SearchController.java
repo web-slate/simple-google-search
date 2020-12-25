@@ -11,11 +11,17 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 @RestController
 public class SearchController {
-    @GetMapping(value = "/api/v1/search")
+    @GetMapping(value = "v1/search")
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Get search results", content = @Content(schema = @Schema(nullable = true)))
     })
     public String getSearch(@RequestParam(defaultValue = "param") String query) {
-        return "Query: " + query;
+        if (query.equals("facebook")) {
+            return "facebook search";
+        } else if (query.equals("youtube")) {
+            return "youtube search";
+        }
+
+        return "No Result for " + query;
     }
 }
