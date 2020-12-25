@@ -1,0 +1,23 @@
+.body {
+  position: fixed;
+  width: 100%;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding-top: 10px !important;
+  margin-top: -50px;
+  margin-left: -100px;
+}
