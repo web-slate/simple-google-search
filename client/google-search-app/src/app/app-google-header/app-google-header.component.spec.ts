@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearchResultsComponent } from './search-results.component';
+import { AppGoogleHeaderComponent } from './app-google-header.component';
 
-describe('SearchResultsComponent', () => {
-  let component: SearchResultsComponent;
-  let fixture: ComponentFixture<SearchResultsComponent>;
+describe('AppGoogleHeaderComponent', () => {
+  let component: AppGoogleHeaderComponent;
+  let fixture: ComponentFixture<AppGoogleHeaderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SearchResultsComponent ]
+      declarations: [ AppGoogleHeaderComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SearchResultsComponent);
+    fixture = TestBed.createComponent(AppGoogleHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
