@@ -4,14 +4,27 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+
+import java.util.List;
+
+import com.google.search.googlesearch.model.Search;
+import com.google.search.googlesearch.repository.SearchRepository; 
+
+import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SearchController {
+
+    @Autowired
+    private SearchRepository searchRepository;
+
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "v1/search")
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Get search results", content = @Content(schema = @Schema(nullable = true)))
@@ -30,5 +43,15 @@ public class SearchController {
         }
 
         return response;
+    }
+
+    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "v1/addSearch")
+    public Search addSearchResult(@RequestBody Search search) {
+        return searchRepository.save(search); 
+    }
+
+    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "v1/getSearch")
+    public List<Search> getSearchResult() {
+        return searchRepository.findAll(); 
     }
 }
