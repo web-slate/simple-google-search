@@ -45,12 +45,12 @@ public class SearchController {
         return response;
     }
 
-    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "v1/addSearch")
+    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "v1/search")
     public Search addSearchResult(@RequestBody Search search) {
         return searchRepository.save(search); 
     }
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "v1/getSearch")
+    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "v2/search")
     public List<Search> getSearchResult() {
         return searchRepository.findAll(); 
     }
