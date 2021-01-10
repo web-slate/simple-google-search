@@ -1,0 +1,15 @@
+<logo></logo>
+
+<form #searchForm="ngForm" (ngSubmit)="searchForm.valid && search()">
+
+  <input
+    type="text"
+    name="query"
+    id="query"
+    #query="ngModel"
+    [(ngModel)]="model.query"
+    required="required"
+  />
+
+  <search-button></search-button>
+</form>

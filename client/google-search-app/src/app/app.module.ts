@@ -1,24 +1,36 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { SearchFormComponent } from './search-form/search-form.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {HeaderComponent} from './common/header/header.component';
+import {FooterComponent} from './common/footer/footer.component';
+import {HomePageComponent} from './home-page/home-page.component';
+import {SearchPageComponent} from './search-page/search-page.component';
+import {SearchFormComponent} from "./common/search-form/search-form.component";
+import {LogoComponent} from './common/logo/logo.component';
+import {SearchButtonComponent} from "./common/search-button/search-button.component";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SearchFormComponent
+    HomePageComponent,
+    SearchPageComponent,
+    LogoComponent,
+    SearchButtonComponent,
+    SearchFormComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
