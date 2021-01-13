@@ -23,7 +23,7 @@ export class SearchPageComponent implements OnInit {
     //FIXME: To call REST API through Services (get)
   }
 
-  //Important
+  //Important to unsubscribe
   ngOnDestroy():void{
     this.query_subscriber.unsubscribe();
   }
