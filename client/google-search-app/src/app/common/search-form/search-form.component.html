@@ -1,15 +1,33 @@
-<logo></logo>
+<div *ngIf="formLayout != 'resultLayout'">
+  <logo></logo>
+  <form #searchForm="ngForm" (ngSubmit)="searchForm.valid && search()">
+    <input
+      type="text"
+      name="query"
+      id="query"
+      #query="ngModel"
+      [(ngModel)]="model.query"
+      required="required"
+    />
+    <search-button></search-button>
+  </form>
+</div>
 
-<form #searchForm="ngForm" (ngSubmit)="searchForm.valid && search()">
-
-  <input
-    type="text"
-    name="query"
-    id="query"
-    #query="ngModel"
-    [(ngModel)]="model.query"
-    required="required"
-  />
-
-  <search-button></search-button>
-</form>
+<div *ngIf="formLayout == 'resultLayout'">
+  <div class="flex-container">
+    <div><logo></logo></div>
+    <div>
+      <form #searchForm="ngForm" (ngSubmit)="searchForm.valid && search()">
+        <input
+          type="text"
+          name="query"
+          id="query"
+          #query="ngModel"
+          [(ngModel)]="model.query"
+          required="required"
+        />
+        <search-button></search-button>
+      </form>
+    </div>
+  </div>
+</div>

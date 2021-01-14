@@ -1,1 +1,19 @@
-<p>search-page works!</p>
+<div class="grid-container">
+  <div class="item1"><search-form [searchString]="search_results.query_string" [formLayout]="resultLayout"></search-form></div>
+  <div class="item2"><ng-container></ng-container></div>
+  <div class="item3">
+        <div>
+             <p class="stat">
+                  About {{ search_results.total_results }} results ({{
+                    search_results.execution_time
+                  }}
+                  ms)
+                </p>
+                <div *ngFor="let result of search_results.results">
+                  <app-search-results [result]="result"></app-search-results>
+                </div>
+              </div>
+  </div>
+  <div class="item4"></div>
+  <div class="item5"><app-footer></app-footer></div>
+</div>
