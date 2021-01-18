@@ -11,7 +11,8 @@ import { SearchResults } from '../model/search-results';
 export class SearchPageComponent implements OnInit {
   private query_string = '';
   private query_subscriber :any;
-  private search_results = <SearchResults>{};
+  search_results = <SearchResults>{};
+  resultLayout:string = 'resultLayout';
   constructor(private router: ActivatedRoute, private service: SearchService) {}
 
   ngOnInit(): void {

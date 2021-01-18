@@ -11,6 +11,7 @@ import {SearchFormComponent} from "./common/search-form/search-form.component";
 import {LogoComponent} from './common/logo/logo.component';
 import {SearchButtonComponent} from "./common/search-button/search-button.component";
 import {FormsModule} from "@angular/forms";
+import { SearchResultsComponent } from './search-page/search-results.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {FormsModule} from "@angular/forms";
     LogoComponent,
     SearchButtonComponent,
     SearchFormComponent,
-    LogoComponent
+    LogoComponent,
+    SearchResultsComponent
   ],
   imports: [
     BrowserModule,
